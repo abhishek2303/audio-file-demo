@@ -51,7 +51,8 @@ IP Address | Port | Version | Project Name | Resource
 
 #### Consuming Data Into Kafka [topic: SpeechTopic]
 
-```json{
+```json
+{
     "id": 1,
     "text": "This is a converted text"
 }
