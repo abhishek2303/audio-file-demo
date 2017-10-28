@@ -6,7 +6,9 @@
 
 ### POST
 
-#### 172.23.238.159:9512/v1/virtualassistance/send-to-searchservice
+IP Address | Port | Version | Project Name | Resource
+--- | --- | --- | --- | ---
+172.23.238.159 | 9512 |v1 | virtualassistance | send-to-searchservice 
 
 ```json
 {
@@ -32,7 +34,7 @@
 
 ### Micro Service Kafka Documentation
 
-#### Publishing Data Into Kafka
+#### Publishing Data Into Kafka [topic: nlp-parser-sender]
 ```json
 {
     "id": 1,
@@ -47,7 +49,7 @@
 }
 ```
 
-#### Consuming Data Into Kafka
+#### Consuming Data Into Kafka [topic: SpeechTopic]
 
 ```json{
     "id": 1,
